@@ -1,0 +1,20 @@
+public class HelloWorld
+{
+
+  // arguments are passed using the text field below this editor
+  public static void main(String[] args)
+  {
+    
+    OtherClass myObject = new OtherClass("Hello World!");
+    System.out.print(myObject);
+    String moooo = "mooooo";
+    System.out.println(moooo);
+    System.out.print("Helloooo");
+    char[] helloWorld = {'H','E','L','L','O'};
+    String helloOWorld = new String(helloWorld);
+    System.out.print(helloOWorld);
+    char[] helloWorldd = {'S','A','M'};
+    String helloWorlddd = new String(helloWorldd);
+    System.out.println(helloWorlddd);
+  }
+}
